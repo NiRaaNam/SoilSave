@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/theText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:textColor="#FFFF0000"
+        android:text="Add to Point: "/>
+
+    <TextView
+        android:id="@+id/ColForNumSQL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:gravity="left|center_vertical"
+        android:textColor="#FFFF0000"
+        android:text="For MySQL List"/>
+
+</LinearLayout>

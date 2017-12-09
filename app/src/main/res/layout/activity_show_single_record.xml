@@ -1,0 +1,444 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="View Point Number:  "
+                        android:id="@+id/textView" />
+
+                    <!--<Spinner
+                        android:id="@+id/simplespinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="20sp"
+                        android:textColor="#ff0000"
+                        android:layout_weight="1"
+                        android:spinnerMode="dropdown" />-->
+
+                    <EditText
+                        android:id="@+id/edtNumpoint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#09090A"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:inputType="numberDecimal"
+                        android:gravity="center">
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Latitude"
+                        android:id="@+id/textView22" />
+
+                    <EditText
+                        android:id="@+id/edtLatSing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0652BF"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:enabled="false"
+                        android:gravity="center">
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Longitude"
+                        android:id="@+id/textView11" />
+
+                    <EditText
+                        android:id="@+id/edtLonSing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0652BF"
+                        android:enabled="false"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:gravity="center">
+                    </EditText>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text=""
+                        android:id="@+id/textView12" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="ค่าความเป็นกรด-ด่าง (pH)"
+                        android:id="@+id/textView2" />
+
+                    <EditText
+                        android:id="@+id/edtVal1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0652BF"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:enabled="false"
+                        android:gravity="center">
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="ปริมาณฟอสฟอรัสที่เป็นประโยชน์ในดิน (P):"
+                        android:id="@+id/textView1" />
+
+                    <EditText
+                        android:id="@+id/edtVal2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0652BF"
+                        android:enabled="false"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:gravity="center">
+                    </EditText>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="ปริมาณโพแทสเซียมที่แลกเปลี่ยนได้ (K):"
+                        android:id="@+id/textView3" />
+
+                    <EditText
+                        android:id="@+id/edtVal3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0652BF"
+                        android:enabled="false"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:gravity="center">
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="ปริมาณอินทรียวัตถุในดิน (%OM): "
+                        android:id="@+id/textView4" />
+
+                    <EditText
+                        android:id="@+id/edtVal4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0652BF"
+                        android:enabled="false"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:gravity="center">
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="ความหนาแน่นร่วมของดิน (Bulk Density):"
+                        android:id="@+id/textView5" />
+
+                    <EditText
+                        android:id="@+id/edtVal5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0652BF"
+                        android:enabled="false"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:gravity="center">
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Value 6"
+                        android:id="@+id/textView6" />
+
+                    <EditText
+                        android:id="@+id/edtVal6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0652BF"
+                        android:enabled="false"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:gravity="center">
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Value 7"
+                        android:id="@+id/textView7" />
+
+                    <EditText
+                        android:id="@+id/edtVal7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0652BF"
+                        android:enabled="false"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:gravity="center">
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Value 8"
+                        android:id="@+id/textView8" />
+
+                    <EditText
+                        android:id="@+id/edtVal8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#0652BF"
+                        android:enabled="false"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal"
+                        android:gravity="center">
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+                    <!-- <ToggleButton
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:id="@+id/btnStart_Stop"
+                         android:text="Start"
+                         android:layout_alignParentBottom="true"
+                         android:layout_alignParentLeft="true"
+                         android:layout_alignParentStart="true" />-->
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textVie33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_height="1dip"
+        android:background="#CCCCCC" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_menu_send"
+            android:text="Close" />
+
+    </LinearLayout>
+
+</TableLayout>

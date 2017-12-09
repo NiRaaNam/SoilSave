@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Soil &amp; Save</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="kml_url">http://googlemaps.github.io/kml-samples/morekml/Polygons/Polygons.Google_Campus.kml</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
+    <string name="about">กระทรวงเกษตรและสหกรณ์ แต่งตั้งคณะกรรมการโครงการแปลงเรียนรู้เกษตรอัจฉริยะขึ้น เพื่อพัฒนาระบบการทำการเกษตรอิจฉริยะในการผลิตมันสำปะหลังและข้าว โดยมอบหมายให้กรมวิชาการเกษตรเป็นเจ้าภาพหลัก รับผิดชอบดำเนินการโครงการแปลงเรียนรู้เกษตรอัจฉริยะกรผลิตมันสำปะหลัง และกรมการค้าข้าวรับผิดชอบแปลงเรียนรู้ฯข้าว โดยมีกรมชลประทาน กรมพัฒนาที่ดิน กรมส่งเสริมสหกรณ์ และสำนักงานเศรษฐกิจการเกษตร เป็นหน่วยงานสนับสนุนร่วมกับ สำนักงานพัฒนาเทคโนโลยีอวกาศและภูมิสารสนเทศ(GISTDA) ซึ่งกรมวิชาการเกตรได้จัดทำโครงการปี 2560 โดยมีแปลงมันสำปะหลังจำนวน 2 แปลง ณ จังหวัดนครราชสีมา จำนวน 1 แปลง และจังหวัดกำแพงเพชร จำนวน 1 แปลง ร่วมกับมหาวิทยาลัย ฮอกไกโด ประเทศญี่ปุ่น ทำการทดสอบและสาธิตการใช้รถแทรกเตอร์ไร้คนขับ ในการเตรียมดินและปลูกมันสำปะหลัง ที่แปลงเรียนรู้ฯ และถ่ายทอดความรู้ให้กับเจ้าหน้าที่ของประเทศไทย</string>
+    <string name="contact1">กระทรวงเกษตรและสหกรณ์
+เลขที่ 3 ถนนราชดำเนินนอก แขวงบ้านพานถม เขตพระนคร กรุงเทพฯ 10200
+โทรศัพท์ 0-2281-5955
+MOAC Call Center 1170
+</string>
+
+    <string name="contact2">สำนักงานพัฒนาเทคโนโลยีอวกาศและภูมิสารสนเทศ สำนักงานใหญ่ (ศูนย์ราชการเฉลิมพระเกียรติ 80 พรรษา 5 ธันวาคม 2550)
+ศูนย์ราชการเฉลิมพระเกียรติ 80 พรรษา 5 ธันวาคม 2550
+เลขที่ 120  อาคารรวมหน่วยราชการ (อาคารรัฐประศาสนภักดี) ชั้น 6 และชั้น 7
+ถนนแจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพฯ 10210
+โทรศัพท์ 0-2141-4444
+โทรสาร 0-2143-9586
+E-mail: info@gistda.or.th
+
+</string>
+
+</resources>
